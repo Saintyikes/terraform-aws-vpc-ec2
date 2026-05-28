@@ -30,7 +30,7 @@ This project provisions a complete AWS networking environment using **Terraform*
 - Added a public subnet (`10.0.1.0/24`) inside the VPC.
 - Configured to auto‑assign public IPs for instances.
  
-  [Subnet Screenshot](subnet.png)
+![Subnet Screenshot](subnet.png)
 
 ---
 
@@ -39,7 +39,7 @@ This project provisions a complete AWS networking environment using **Terraform*
 - Configured a Route Table (`Public-RT`) with a default route to the internet (`0.0.0.0/0`).
 - Associated the Route Table with the Public Subnet.
  
-![IGW Screenshot](igw.png)
+![IGW Screenshot](IGW.png)
 ![Route Table](route-table.png)
 
 ---
